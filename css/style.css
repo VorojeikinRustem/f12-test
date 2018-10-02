@@ -11681,4 +11681,22 @@ ul.Tags {
   margin-bottom: 4rem;
   text-align: center; }
 
+/* Rustem's superstyles */
+
+.Featured-header-title_mob {
+	display: none;
+}
+
+@media (max-width: 759px) {
+	
+	.Featured-header-title_desk {
+		display: none;
+	}
+	
+	.Featured-header-title_mob {
+		display: block;
+		margin-bottom: 2rem;
+	}
+}
+
 /*# sourceMappingURL=../maps/style.css.map */
